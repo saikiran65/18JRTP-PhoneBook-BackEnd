@@ -15,7 +15,8 @@ import in.ashokit.bindings.ContactForm;
 import in.ashokit.service.ContactServiceImpl;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+//@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://aqueous-spire-28712.herokuapp.com")
 public class ContactController {
 	
 	@Autowired
